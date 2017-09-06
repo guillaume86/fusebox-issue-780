@@ -1,0 +1,32 @@
+{
+  "name": "fusebox-issue-780",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp dev"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "tslib": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^15.5.0",
+    "fuse-box": "2.2.4-beta.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-hash-src": "^0.1.6",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-open": "^2.0.0",
+    "less": "^2.7.2",
+    "run-sequence": "^1.2.2",
+    "serve-static": "^1.12.3",
+    "tslint": "^5.2.0",
+    "tslint-language-service": "^0.9.6",
+    "typescript": "^2.3.2",
+    "uglify-js": "^2.8.22"
+  }
+}

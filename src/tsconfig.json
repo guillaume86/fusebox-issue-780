@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "noLib": false,
+    "outDir": "build/",
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declaration": false,
+    "importHelpers": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "lib": ["es5", "es6", "dom", "es2015.iterable", "es2015.promise", "es2016.array.include", "es2017.object", "es2017"],
+    "plugins": [
+      { "name": "tslint-language-service" }
+    ]
+  },
+  "exclude": [],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "vscode": {
+    "rewriteTsconfig": true
+  },
+  "enableAutoDiscovery": false
+}

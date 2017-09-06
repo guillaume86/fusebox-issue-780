@@ -1,0 +1,18 @@
+{
+	"defaultSeverity": "warning",
+	"rules": {
+		"no-unused-expression": true,
+		"no-duplicate-variable": true,
+		"no-unused-variable": true,
+		"curly": ["ignore-same-line"],
+		"class-name": true,
+		"semicolon": ["always"],
+		"triple-equals": true,
+		"no-debugger": true,
+		"no-namespace": false,
+		"object-literal-sort-keys": false,
+		"ordered-imports": [ false ],
+		"interface-name": [ false ],
+		"max-line-length": [ 130 ]
+	}
+}
